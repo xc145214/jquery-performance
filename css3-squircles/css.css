@@ -1,0 +1,69 @@
+/*Importing custom fonts*/
+@import url(../shared/font-awesome.min.css);
+/*@import url(http://fonts.googleapis.com/css?family=Montserrat);*/
+
+/*basic reset*/
+* {margin: 0; padding: 0;}
+body {
+    padding: 70px;
+    background: url('http://thecodeplayer.com/uploads/media/geometry.png');
+}
+h1 {
+    font-family: montserrat;
+    color: #333;
+    text-transform: uppercase;
+    padding: 30px;
+    text-align: center;
+}
+
+.icons {
+    width: 220px;
+    margin: 0 auto;
+}
+.icons i {
+    display: block;
+    font-size: 24px;
+    line-height: 50px; width: 50px;
+    text-align: center;
+}
+.icons a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 12px;
+    position: relative;
+}
+/*Now we will create fish-eye shapes using pseudo elements and clip them to add a curve to the sides of the icons*/
+.icons a:before, .icons a:after {
+    content: '';
+    position: absolute; left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: inherit;
+    border-radius: 100%; /*circle*/
+    /*time to transform the circle into fish-eye shape. iOS7 style now.*/
+    transform: scaleX(2) scaleY(1.05);
+    /*clipping the left and right sides - 17px from the left and right*/
+    clip: rect(0, 33px, 50px, 17px);
+    /*pushing it behind the icon*/
+    z-index: -1;
+}
+/*duplicating the :before element and rotating it 90deg and swapping the X/Y transforms*/
+.icons a:after {
+    transform: scaleY(2) scaleX(1.05) rotate(90deg);
+}
+/*colors*/
+.tw {background: #00ACF0;}
+.fb {background: #3B5997;}
+.gp {background: #DB4F48;}
+.ig {background: #447397;}
+.li {background: #007DB8;}
+.yt {background: #D12E2E;}
+
+
+
+
+
+
+
+

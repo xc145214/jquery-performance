@@ -1,0 +1,79 @@
+/*We will import 2 fonts*/
+/*fontawesome iconfont*/
+@import url(../shared/font-awesome.min.css);
+/*Montserrat for the text*/
+/*@import url(http://fonts.googleapis.com/css?family=Montserrat);*/
+
+/*basic reset*/
+* {margin: 0; padding: 0;}
+
+body {
+    font-family: montserrat;
+    background: url('http://thecodeplayer.com/uploads/media/gpp.png');
+    padding-top: 100px;
+    color: #333;
+}
+
+h1 {
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;
+}
+
+ul {
+    width: 290px;
+    margin: 0 auto;
+}
+ul li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+/*Adding custom checkbox icons*/
+label {
+    position: relative;
+    padding-left: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+label:before, label:after {
+    font-family: FontAwesome;
+    font-size: 21px;
+    /*absolutely positioned*/
+    position: absolute; top: 0; left: 0;
+}
+label:before {
+    content: '\f096'; /*unchecked*/
+}
+label:after {
+    content: '\f046'; /*checked*/
+    /*checked icon will be hidden by default by using 0 max-width and overflow hidden*/
+    max-width: 0;
+    overflow: hidden;
+    opacity: 0.5;
+    /*CSS3 transitions for animated effect*/
+    transition: all 0.35s;
+}
+
+/*hiding the original checkboxes*/
+input[type="checkbox"] {
+    display: none;
+}
+/*when the user checks the checkbox the checked icon will animate in*/
+input[type="checkbox"]:checked + label:after {
+    max-width: 25px; /*an arbitratry number more than the icon's width*/
+    opacity: 1; /*for fade in effect*/
+}
+
+/*adding some colors for fun*/
+#one+label:before, #one+label:after {color: hsl(0, 45%, 40%);}
+#two+label:before, #two+label:after {color: hsl(60, 45%, 40%);}
+#three+label:before, #three+label:after {color: hsl(120, 45%, 40%);}
+#four+label:before, #four+label:after {color: hsl(180, 45%, 40%);}
+#five+label:before, #five+label:after {color: hsl(240, 45%, 40%);}
+#six+label:before, #six+label:after {color: hsl(300, 45%, 40%);}
+
+
+
+
+
