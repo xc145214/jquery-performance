@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+<div class="fun-cube"><i class="fa fa-cube"></i></div>
+<h1>Single input 3D form</h1>
+
+<!-- heirarchy: #cuboid > form > div*4(cuboid faces) -->
+<div id="cuboid">
+    <form>
+        <!-- #1 hover button -->
+        <div>
+            <p class="cuboid-text">登录</p>
+        </div>
+        <!-- #2 text input -->
+        <div>
+            <!-- Label to trigger #submit -->
+            <label for="submit" class="submit-icon">
+                <i class="fa fa-chevron-right"></i>
+            </label>
+            <input type="text" id="email" class="cuboid-text" placeholder="Your Email" autocomplete="off"/>
+            <!-- hidden submit button -->
+            <input type="submit" id="submit"/>
+        </div>
+        <!-- #3 loading message -->
+        <div>
+            <p class="cuboid-text loader">Just a moment</p>
+        </div>
+        <!-- #4 success message -->
+        <div>
+            <!-- reset/retry button -->
+            <span class="reset-icon"><i class="fa fa-refresh"></i></span>
+
+            <p class="cuboid-text">Thankyou, we'll be in touch</p>
+        </div>
+    </form>
+</div>
+
+
+<script src="../shared/jquery.js"></script>
+<script src="effect.js"></script>
+
+</body>
+</html>
