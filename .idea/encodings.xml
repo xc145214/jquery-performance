@@ -1,13 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/../../bootstrap/DEMOS/demo2.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AD/ad.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/AD/adDemo_close.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/AD/ad_down.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/AD/cur.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/AD/icon.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/AD/snow.gif" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/AD/右下角弹框.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/AD/右下角弹框1.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/AD/数字商品-10-23.jpg" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Zoom" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/clock/clock.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/1.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/10.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/11.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/12.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/13.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/14.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/15.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/16.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/17.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/18.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/19.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/2.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/20.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/21.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/22.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/23.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/24.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/25.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/26.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/27.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/29.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/3.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/30.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/31.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/33.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/4.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/5.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/6.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/7.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/8.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/css3-hover/img/9.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/dropdown/01-变幻菜单" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/dropdown/02-多级菜单" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/dropdown/03-动画菜单" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/dropdown/04-特效菜单" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/dropdown/05-响应式菜单" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/dropdown/06-bootstrap响应式" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/dropdown/Scripts" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/dropdown/html+css实现" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/dropdown/javascript实现" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/dropdown/jquery实现" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gotoTop/demo.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gotoTop/images" charset="GBK" />
     <file url="file://$PROJECT_DIR$/jqzoom/css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jqzoom/images" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jqzoom/index.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jqzoom/js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/matrix-rain-anomation/effect.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modal/demo.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/modal/img" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/modal/style" charset="GBK" />
     <file url="file://$PROJECT_DIR$/placecheck/demo1.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/placecheck/js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ripple-click-effect/style.css" charset="UTF-8" />
@@ -15,6 +71,20 @@
     <file url="file://$PROJECT_DIR$/shared/jquery-1.9.1.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shared/jquery.easing.min.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shared/jquery.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sidebar/bower.json" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/sidebar/demo1.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/sidebar/demo2.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/sidebar/sidebar.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/sidebar/sidebarDemo2.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/sidebar/sidebarDemo2.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/sidebar/sidebarEffects.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/sidebar/tm_bg.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/toolTip/1.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/toolTip/2.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/toolTip/bg.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/toolTip/demo.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/toolTip/demo1.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/toolTip/编程挑战(参考代码).html" charset="GBK" />
     <file url="file://$PROJECT_DIR$/youtube-loadingbar/README.md" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/youtube-loadingbar/demo.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/youtube-loadingbar/jquery.loadingbar.js" charset="UTF-8" />

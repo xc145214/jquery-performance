@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    <title>Javascript 回到顶部</title>
+    <style type="text/css">
+        #btn {
+            width: 40px;
+            height: 40px;
+            position: fixed;
+            right: 65px;
+            bottom: 10px;
+            display: block;
+            background: url(images/top_bg.png) no-repeat left top;
+        }
+
+        #btn:hover {
+            background: url(images/top_bg.png) no-repeat 0 -39px;
+        }
+
+        .bg {
+            width: 1190px;
+            margin: 0 auto;
+        }
+    </style>
+
+    <script type="text/javascript">
+        /**
+         * 任务1：获取页面可视区的高度代码编写
+
+         任务2：获取滚动条距离顶部的高度
+
+         注意在chrom和IE等浏览器的兼容性
+
+         任务3：使用脚本控制“回到顶部”按钮的显示与隐藏
+         */
+
+        window.onscroll = function () {
+            var obtn = document.getElementById('btn');
+            //获取页面可视区的高度
+            var clientHeight = document.documentElement.clientHeight;
+
+            var timer = null;
+            var isTop = true;
+
+            window.onscroll = function () {
+                var osTop = document.documentElement.scrollTop || document.body.scrollTop;
+
+//                console.info(clientHeight);
+//                console.info(osTop);
+
+                if (osTop >= clientHeight) {
+                    obtn.style.display = "block"; //显示按钮
+                } else {
+                    obtn.style.display = "none"; //隐藏按钮
+                }
+                if (!isTop) {
+                    clearInterval(timer);
+                }
+                isTop = false;
+            };
+            obtn.onclick = function () {
+                //设置定时器
+                timer = setInterval(function () {
+                    var osTop = document.documentElement.scrollTop || document.body.scrollTop;
+                    var ispeed = Math.floor(-osTop / 6);
+                    //获取滚动条距离顶部的高度
+                    document.documentElement.scrollTop = document.body.scrollTop = osTop + ispeed;
+                    isTop = true;
+                    if (osTop == 0) {
+                        clearInterval(timer);
+                    }
+                }, 30);
+            }
+        }
+
+    </script>
+
+</head>
+<body>
+<a href="javascript:;" id="btn" title="回到顶部"></a>
+
+<div class="bg">
+    <img src="images/tb_bg.jpg" alt=""/>
+</div>
+</body>
+</html>

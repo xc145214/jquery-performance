@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>自动展开</title>
+    <style type="text/css">
+        body {
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        a:focus {
+            outline: none;
+        }
+
+        #pn {
+            background: #e8e8e8;
+            height: 120px;
+            width: auto;
+            display: block;
+            margin: 0 auto;
+            padding: 5px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .slide {
+            padding: 10px;
+            width: 960px;
+            margin: 0 auto;
+            background: gray;
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+            color: #fff;
+        }
+    </style>
+    <script type="text/javascript">
+
+        var W = 0;
+        function addW() {
+
+            if (W < 960)  //宽度
+            {
+                W = W + 20;
+                //将宽度W赋值给广告层
+                document.getElementById("pn").style.width = W + "px";
+            }
+            else {
+                return;
+
+            }
+            setTimeout("addW();", 30);
+        }
+        window.onload = function showAds() {
+            addW();
+
+            setTimeout("subW();", 5000); //5秒后调用收起函数
+        }
+        function subW() {
+            if (W > 0) {
+
+                W = W - 20;
+
+                document.getElementById("pn").style.width = W + "px";
+            }
+            else {//宽度为0后，隐藏广告层。
+                document.getElementById("pn").style.display = "none";
+                return;
+            }
+
+            setTimeout("subW()", 30);
+        }
+    </script>
+</head>
+<body>
+<div id="pn">
+    <h1>欢迎来到慕课网</h1>
+
+    <h2>大幅广告</h2>
+</div>
+<p class="slide">
+    慕课网欢迎你</p>
+</body>
+</html>

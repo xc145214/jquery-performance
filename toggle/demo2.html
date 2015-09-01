@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>自动展开</title>
+    <style type="text/css">
+        body {
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        a:focus {
+            outline: none;
+        }
+
+        #pn {
+            background: #e8e8e8;
+            height: 120px;
+            width: auto;
+            display: block;
+            margin: 0 auto;
+            padding: 5px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .slide {
+            padding: 10px;
+            width: 960px;
+            margin: 0 auto;
+            background: gray;
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+            color: #fff;
+        }
+    </style>
+    <script>
+        function getEl(id){
+            return document.getElementById(id);
+        }
+
+        var h = 0;
+        //增加高度函数addH()
+
+        function addh() {
+
+            if(h<300){
+                h+=5;
+                getEl("pn").style.height = h + "px";
+            }
+            setTimeout("addh()",30);//定时器
+        }
+
+        //网页加载完毕时，调用增加高度函数addH()，等待5秒钟后调用减少高度函数subh()。
+
+      window.onload = function showAds(){
+          addh();
+          setTimeout("subh()",5000);
+      }
+
+        var T = 300;
+        var N = 300;//高度
+        // 减少高度函数subH()
+
+        function subh() {
+            if(T >0){
+                T--;
+                N =N -5;
+            }else{
+                return;
+            }
+            if(N <=0){
+                getEl("pn").style.display = "none";
+                //document.getElementById("pn").style.height = "30px";
+            }else{
+                getEl("pn").style.height = N + "px";
+            }
+            setTimeout("subh()", 30);
+
+        }
+
+    </script>
+</head>
+<body>
+<div id="pn">
+    <h1>
+        欢迎来到慕课网</h1>
+
+    <h2>
+        大幅广告</h2>
+</div>
+<p class="slide">
+    慕课网欢迎你</p>
+</body>
+</html>

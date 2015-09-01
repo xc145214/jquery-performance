@@ -1,6 +1,18 @@
 # jquery-performance
 ------
-常用的jquery特效
+# 前端常用网页特效：
+
++ [形形色色的下拉菜单]()
++ [侧边栏信息展示]()
++ [回到顶部效果]()
++ [弹出层效果]()
++ [网页广告特效]()
++ [展开收起效果]()
++ [ToolTip浮动提示框效果](NOTE/ToolTip.md)
++ [展开收起效果](NOTE/toggle.md)
+
+
+##常用的jquery特效案例
 
 + [1. 放大镜 多图片](jqzoom)
 + [2. 放大镜 单图片](Zoom)
@@ -27,3 +39,10 @@
 + [23. 邮票效果图片](stamp-image)
 + [24. 计算器](calculator)
 + [25. CSS dropdown menu](css-dropdown-menu)
++ [26. toolTip悬浮提示栏](toolTip)
++ [27. 展开收起效果](toggle)
++ [28. 回到顶部](gotoTop)
++ [29. 弹出层效果](modal)
++ [30. 广告特效](AD)
++ [31. 侧边栏](sidebar)
++ [32. 下拉菜单](dropdown)
